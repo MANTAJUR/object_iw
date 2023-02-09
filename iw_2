@@ -1,0 +1,7 @@
+let arr=["kalu","vulu","chaku","naku","chaku","naku"]
+
+let obj={};
+for(let i=0;i<arr.length;i++){
+  obj[arr[i]]=1;
+}
+console.log(obj);
